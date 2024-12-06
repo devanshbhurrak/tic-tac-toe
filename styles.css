@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #C0EBA6;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+h1 {
+    color: #004321;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+.turn {
+    background-color: #347928;
+}
+.box {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: #004321;
+    background-color: #FCCD2A;
+    box-shadow: 0 0 5px rgb(26, 115, 58);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+.msg {
+    margin: 40px;
+    width: 100%;
+    font-size: larger;
+    color: #468c3a;
+}
+.game {
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    grid-template-rows: repeat(3,80px);
+    gap: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.reset {
+    background-color: #1b5d3b;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.Win {
+    margin: 40px;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.highlight {
+    background-color: #90ee90;
+    color: #004321;
+    border: 3px solid #004321;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
